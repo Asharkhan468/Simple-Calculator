@@ -1,45 +1,69 @@
-let inputField = document.querySelector("#inputfield");
+//Input  field
 
-function btn0() {
-  inputField.value = 0 ;
-}
+const input = document.querySelector("#input");
 
-function btn1(){
-    inputField.value = 1;
-}
+//Button click and render on input field
 
-function btn2() {
-  inputField.value = 2;
-}
+document.querySelector('#zero').addEventListener('click' , ()=>{
+    input.value+=0;
+})
 
-function btn3() {
-  inputField.value = 3;
-}
+document.querySelector("#one").addEventListener('click' , ()=>{
+    input.value+=1;
+})
 
-function btn4() {
- inputField.value = 4;
-}
+document.querySelector('#two').addEventListener('click' , ()=>{
+    input.value+=2;
+})
 
-function btn5() {
- inputField.value = 5;
-}
+document.querySelector("#three").addEventListener('click' , ()=>{
+    input.value+=3;
+})
 
-function btn6() {
-inputField.value = 6;
-}
+document.querySelector('#four').addEventListener('click' , ()=>{
+    input.value+=4
+})
 
-function btn7() {
-  inputField.value = 7;
-}
+document.querySelector("#five").addEventListener('click' , ()=>{
+    input.value+=5;
+})
 
-function btn8() {
-  inputField.value = 8;
-}
+document.querySelector("#six").addEventListener('click' , ()=>{
+    input.value+=6;
+})
 
-function btn9() {
-  inputField.value = 9;
-}
+document.querySelector("#seven").addEventListener('click' , ()=>{
+    input.value+=7;
+})
 
-function clearBtn(){
-    inputField.value = "";
-}
+document.querySelector("#eight").addEventListener('click' , ()=>{
+    input.value+=8;
+})
+
+document.querySelector("#nine").addEventListener('click' , ()=>{
+    input.value+=9;
+})
+
+document.querySelector("#equal").addEventListener('click' , ()=>{
+    console.log(input.value);
+})
+
+//Render clear btn
+
+
+document.querySelector('#clear').addEventListener('click' , ()=>{
+    input.value="";
+})
+
+
+//Rendering sign 
+
+
+document.querySelector('#add').addEventListener('click' , ()=>{
+    input.value='+'
+})
+
+
+
+
+

@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 
-    <!-- <h3 id="para"></h3> -->
+    <div class="text-center mt-5 ">
+        <input type="text" value="" id="input">
+        <div class="center">
+            <div class="d-flexcenter mt-4 butn-group">
+                <button class="btn btn-warning btn-mag" id="seven">7</button>
+                <button class="btn btn-warning btn-mag" id="eight">8</button>
+                <button class="btn btn-warning btn-mag" id="nine">9</button>
+                <button class="btn btn-warning btn-mag" id="divide">÷</button>
+                
+            </div>
 
-    <div class="text-center">
+            <div class="d-flexcenter mt-4 butn-group">
+                <button class="btn btn-warning btn-mag" id="four">4</button>
+                <button class="btn btn-warning btn-mag" id="five">5</button>
+                <button class="btn btn-warning btn-mag" id="six">6</button>
+                <button class="btn btn-warning btn-mag" id="multiply">x</button>
+               
+            </div>
 
-    <input class="mt-4" type="text" id="inputfield" value="">
+            <div class="d-flexcenter mt-4 butn-group">
+                <button class="btn btn-warning btn-mag" id="one">1</button>
+                <button class="btn btn-warning btn-mag" id="two">2</button>
+                <button class="btn btn-warning btn-mag" id="three">3</button>
+                <button class="btn btn-warning btn-mag" id="minus">-</button>
+            </div>
 
+
+            <div class="d-flexcenter mt-4 butn-group">
+                <button class="btn btn-warning btn-mag" id="zero">0</button>
+                <button class="btn btn-warning btn-mag" id="clear">C</button>
+                <button class="btn btn-warning btn-mag" id="equal">=</button>
+                <button class="btn btn-warning btn-mag" id="add">+</button>
+            </div>
+        </div>
     </div>
-
-   <div class="parent align-center">
-
-    <div class="d-flex mt-2 margin">
-        <button  onclick="btn7()" type="button" class="btn btn-warning">7</button>
-        <button  onclick="btn8()" type="button" class="btn btn-warning">8</button>
-        <button  onclick="btn9()" type="button" class="btn btn-warning">9</button>
-        <button type="button" class="btn btn-warning">+</button>
-    </div>
-    <div class="d-flex mt-2 margin">
-        <button  onclick="btn4()" type="button" class="btn btn-warning">4</button>
-        <button  onclick="btn5()" type="button" class="btn btn-warning">5</button>
-        <button  onclick="btn6()" type="button" class="btn btn-warning">6</button>
-        <button type="button" class="btn btn-dark">-</button>
-    </div>
-    <div class="d-flex mt-2 margin">
-        <button onclick="btn1()" type="button" class="btn btn-warning">1</button>
-        <button  onclick="btn2()" type="button" class="btn btn-warning">2</button>
-        <button  onclick="btn3()" type="button" class="btn btn-warning">3</button>
-        <button type="button" class="btn btn-dark">x</button>
-    </div>
-    <div class="d-flex mt-2 margin">
-        <button onclick="clearBtn()" type="button" class="btn btn-danger">C</button>
-        <button onclick="btn0()" type="button" class="btn btn-warning">0</button>
-        <button type="button" class="btn btn-dark">=</button>
-        <button type="button" class="btn btn-dark">/</button>
-    </div>
-
-   </div>
 
 
 
