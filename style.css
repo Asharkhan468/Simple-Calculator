@@ -9,5 +9,12 @@
 }
 
 .btn-mag{
-    margin: 6px;
+    margin: 7px;
+    padding:40px;
+}
+
+input{
+    width: 12rem;
+    padding:4px;
+    border-radius: 6px;
 }
